@@ -1,0 +1,33 @@
+
+GET http://localhost:3000/employees
+
+###
+
+GET http://localhost:3000/employees/67381323a79285e818c44334
+
+###
+
+POST http://localhost:3000/employees
+Content-Type: application/json
+
+{
+    "name": "Zain",
+    "role": "Customer Service Agent",
+    "department": "Customer Service",
+    "contactInfo": { 
+        "email": "zainnaqvi0@homatil.com", "mobileNumber": "+61466713419"
+    }
+}
+
+###
+
+DELETE http://localhost:3000/employees/67381323a79285e818c44334
+
+###
+
+PATCH http://localhost:3000/employees/67381323a79285e818c44334
+Content-Type: application/json
+
+{
+    "name": "Mysha"
+}
