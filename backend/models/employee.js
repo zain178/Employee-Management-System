@@ -13,15 +13,13 @@ const employeeSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    contactInfo: {
-        email: {
-            type: String,
-            required: false,
-        },
-        mobileNumber: {
-            type: Number,
-            required: false,
-        }
+    email: {
+        type: String,
+        required: false,
+    },
+    mobileNumber: {
+        type: Number,
+        required: false,
     },
     joiningDate: {
         type: Date,

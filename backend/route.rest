@@ -1,5 +1,5 @@
 
-GET http://localhost:3000/employees
+GET http://localhost:8080/employees
 
 ###
 
@@ -7,15 +7,15 @@ GET http://localhost:3000/employees/67381323a79285e818c44334
 
 ###
 
-POST http://localhost:3000/employees
+POST http://localhost:8080/employees
 Content-Type: application/json
 
 {
-    "name": "Zain",
+    "name": "Ali",
     "role": "Customer Service Agent",
     "department": "Customer Service",
     "contactInfo": { 
-        "email": "zainnaqvi0@homatil.com", "mobileNumber": "+61466713419"
+        "email": "ali7823@homatil.com", "mobileNumber": "+61466713419"
     }
 }
 
@@ -25,7 +25,7 @@ DELETE http://localhost:3000/employees/67381323a79285e818c44334
 
 ###
 
-PATCH http://localhost:3000/employees/67381323a79285e818c44334
+PATCH http://localhost:8080/employees/673eb70755a8e3970f50e61e
 Content-Type: application/json
 
 {
